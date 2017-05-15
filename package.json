@@ -1,0 +1,28 @@
+{
+  "name": "books-project",
+  "version": "1.0.0",
+  "description": "Books Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergio-vb/books-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergio-vb/books-project/issues"
+  },
+  "homepage": "https://github.com/sergio-vb/books-project#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot"
+  }
+}

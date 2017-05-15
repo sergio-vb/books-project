@@ -1,0 +1,12 @@
+<div class="view-container">
+	<h2>View 2</h2>
+
+	<label for="nameInput">City: </label> 
+	<input name="nameInput" type="text" ng-model="cityInput" />
+	<p>{{cityInput}}</p>
+
+	<ul>
+		<li ng-repeat="cust in customers | orderBy:'name' | filter:cityInput">{{cust.name | uppercase }}, {{cust.city}}</li>
+	</ul>
+	
+</div>
